@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+#skills{
+    /* background-image: url("../project_01/images/f1.avif"); */
+    height:auto;
+    padding:9vh 0 15vh;
+}
+.cntr{
+    background-color: transparent;
+    margin: 30px auto;
+    width: 57vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.item{
+    background-color: transparent;
+    height: 30px;
+    width: 30px;
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item>i{
+    font-size: 8em;
+}
