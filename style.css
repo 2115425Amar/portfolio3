@@ -12,7 +12,7 @@ body{
     color: #fff;
 }
 
-#header{
+/* #header{
     width: 90%;
     height: 90vh;
     background-image:url(portfolio-images/i.jpg) ;
@@ -22,7 +22,19 @@ body{
     background-position-x: 950px;
     background-position-y: 100px; 
     margin-bottom :30px ;
-}
+} */
+#header{
+    width: 90%;
+    height: 90vh;
+    /* background-image:url(portfolio-images/i.jpg) ; */
+    background-image:url(portfolio-images/ps-removebg-preview.png) ;
+    background-size:contain;  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-x: 900px;
+    background-position-y: 0px; 
+    margin-bottom :30px ;
+}  
 
 .inline{
    display: flex;
